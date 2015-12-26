@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+/* This is a change */
 main() {
 	int cc, word, wc;
 	word = 3;
