@@ -29,13 +29,3 @@ printf("%d\n", tabs);
 printf("%s", "Blanks: ");
 printf("%d", blanks);
 }
-
-
-
-
-
-
-
-
-
-
