@@ -7,12 +7,13 @@
 
 main() {
 
-int c, state, nw;
+int c, state, nw, out;
 
 
 while ((c = getchar()) != EOF) {
 	if (c == '\n' || c == '\t' || c == ' ') {
 			state = OUT;
+			++out;
 			putchar('\n');
 		}
 	else if (state == OUT) {
@@ -22,6 +23,7 @@ while ((c = getchar()) != EOF) {
 	putchar(c);		
 	}
 	printf("\n%s", "Total words: ");
-	printf("%d", nw);
+	printf("%d\n", nw);
+	printf("%d", out);
 }
 
